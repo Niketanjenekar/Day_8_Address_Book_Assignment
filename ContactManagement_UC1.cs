@@ -11,16 +11,43 @@ namespace Day_8_Adress_Book_Assignment
     {
         public static void CreateContact()
         {
+
             string firstname;
             string lastname;
             string address;
             string city;
             string state;
             string zip;
-            
+
             string phone;
             string email;
-            string phoneNumber;
+            string mobilenumber;
+
+            Console.WriteLine("Enter First Name: ");
+            firstname = Console.ReadLine();
+
+            Console.WriteLine("Enter Last name: ");
+            lastname = Console.ReadLine();
+
+            Console.WriteLine("Enter Your MobileNumber: ");
+            mobilenumber = Console.ReadLine();
+
+            Console.WriteLine("Enter Your Address: ");
+            address = Console.ReadLine();
+
+            Console.WriteLine("Enter Your City: ");
+            city = Console.ReadLine();
+
+            Console.WriteLine("Enter  Your State: ");
+            state = Console.ReadLine();
+
+            Console.WriteLine("Enter Your Zip: ");
+            zip = Console.ReadLine();
+
+            Console.WriteLine("Enter Your Email Id: ");
+            email = Console.ReadLine();
+            
+            
         }
     }
 }
