@@ -8,7 +8,7 @@ namespace Day_8_Adress_Book_Assignment
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to the Adress Book Program: ");
-
+            ContactManagement_UC1.CreateContact();
             
         }
    }
